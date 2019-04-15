@@ -6,3 +6,68 @@
 .App {
 
 }
+
+.Welcome{
+  height: 20em;
+  padding: 5em;
+  display: grid;
+  grid-template-columns: 9% 50% 25%;
+  padding-left: 15em;
+}
+
+.text-welcome-page{
+  position: relative;
+  padding-top: 5em;
+}
+
+.name-job-title{
+  padding-top: 12em;
+}
+
+#woman-pc{
+  width: 45em;
+  min-width: 10%;
+  opacity: .2;
+  position: absolute;
+}
+
+/* MENU */
+.Menu{
+  display: grid;
+}
+
+.menu{
+  background-color: black;
+  width: 25em;
+  font-size: 1em;
+  color: white;
+  padding: .5em;
+  margin-bottom: .5em;
+  grid-column-start: col-start 6;
+  animation-name: menu;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes menu {
+  0%{
+    background-color: white;
+    color: black;
+  }
+  100%{
+    background-color: black;
+    color: white;
+  }
+}
+
+/* #projects{
+  animation-name: projects;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes projects {
+  0%{
+    margin-right: -140em;
+  }
+} */
