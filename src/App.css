@@ -7,6 +7,10 @@
 
 }
 
+button{
+  cursor: pointer;
+}
+
 .Welcome{
   height: 20em;
   padding: 5em;
@@ -156,9 +160,12 @@
 
 #close-modal{
   font-size: 1em;
-  border-radius: 58%;
-  padding: .2em;
+  padding-left: .4em;
+  padding-right: .4em;
+  padding-bottom: .1em;
+  border-radius: 3em;
   margin: 1em;
+  background-color: rgba(236, 100, 75, .7);
 }
 
 #about-me{
