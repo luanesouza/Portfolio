@@ -71,3 +71,97 @@
     margin-right: -140em;
   }
 } */
+
+/* PROJECTS */
+.Project2{
+  padding: .5em;
+  margin-left: 5em;
+  margin-top: 5em;
+  border: .1em solid black;
+  display: grid;
+  grid-template-columns: 10% 40%;
+  width: 70em;
+  height: 18em;
+  min-width: 10em;
+}
+
+#project2{
+  width: 25.5em;
+  height: 17em;
+  min-width: 5em;
+}
+
+#project1{
+  width: 25em;
+  height: 17em;
+  min-width: 5em;
+}
+
+#text-project2{
+  text-align: justify!important;
+  grid-column-start: col-start 3;
+}
+
+.allProjects{
+  margin-top: 2em;
+  padding-top: 2em;
+}
+
+
+
+/* ARROW  */
+
+.Arrow{
+  margin-top: 8em;
+  text-align: center;
+  transform: rotate(90deg);
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0%{color: white}
+  100%{color:black}
+}
+
+/* MODAL */
+.modal{
+  text-align: center;
+  font-size: 1.5em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(250, 255, 255, .8)
+}
+
+.modal-above{
+  padding: 2em;
+  width: 28em;
+  background-color: rgba(255,249,250, .9);
+  display: grid;
+  grid-template-columns: 6em 5em 18em;
+  margin-left: 19em;
+}
+
+#me{
+  border-radius: 50%;
+  width: 9em;
+  min-width: 4em;
+  /* padding-right: 3em; */
+}
+
+#close-modal{
+  font-size: 1em;
+  border-radius: 58%;
+  padding: .2em;
+  margin: 1em;
+}
+
+#about-me{
+  grid-column-start: 3;
+  text-align: justify;
+}
