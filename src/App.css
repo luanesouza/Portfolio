@@ -295,11 +295,18 @@ a{
 }
 /* CONTACT ME FORM */
 
+#contact-title{
+  text-align: center;
+  margin-top: 10em;
+}
+
 .form-contact-me{
-  margin-top: 5em;
+  margin-top: .8em;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(white, rgba(233,233,233, .5));
+  /* background-image: url("https://media.gettyimages.com/photos/office-desk-table-with-computer-keyboard-supplies-coffee-cup-pen-and-picture-id861222196"); */
+  /* background-size: cover; */
+  background-image: linear-gradient(white, rgba(233,233,233, .8));
   padding-bottom: 5vh;
 }
 
@@ -310,7 +317,7 @@ a{
 
 #input-form{
   width: 20vw;
-  height: 4vh;
+  height: 6vh;
   padding: .4em;
   margin: 1em;
   border: .1em solid gray;
@@ -341,9 +348,11 @@ a{
 /* FOOTER */
 
 .Footer{
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   height: 10vh;
+  width: 100vw;
   text-align: center;
+  background-image: linear-gradient(rgba(233,233,233, .8), rgba(233,233,238, 1) );
 }
 
 #contactme-icons{

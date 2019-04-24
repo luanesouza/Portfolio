@@ -12,12 +12,16 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
+    this.projects = React.createRef();
+    this.contact = React.createRef();
 
     this.state = {
-      modalOpen: false
+      modalOpen: false,
     }
 
     this.toggleModal = this.toggleModal.bind(this);
+    this.goProjects = this.goProjects.bind(this);
+    this.goContact = this.goContact.bind(this);
   }
 
   toggleModal() {
@@ -26,16 +30,28 @@ class App extends Component {
     }));
   }
 
+  goProjects() {
+    this.projects.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  goContact() {
+    this.contact.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   render() {
     return (
-      <div className="App">
-      <Menu toggleModal={this.toggleModal} />
+      <div clacssName="App">
+      <Menu goContact={this.goContact} goProjects={this.goProjects} toggleModal={this.toggleModal} />
       <Welcome />
       <Technologies />
       <Arrow />
-      <div className="allProjects">
+      <div className="allProjects" ref={this.projects}>
         <Projects />
+        <div id="contact-title" ref={this.contact}>
+          <h2>Contact The Developer</h2>
+        </div>
         <ContactMe />
+        <hr />
         <Footer />
       </div>
         <AboutMe
