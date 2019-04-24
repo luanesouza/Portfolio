@@ -5,6 +5,8 @@ import Projects from './components/Projects'
 import Arrow from './components/Arrow';
 import AboutMe from './components/AboutMe';
 import Technologies from './components/Technologies';
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +35,8 @@ class App extends Component {
       <Arrow />
       <div className="allProjects">
         <Projects />
+        <ContactMe />
+        <Footer />
       </div>
         <AboutMe
           closeModal={this.toggleModal}

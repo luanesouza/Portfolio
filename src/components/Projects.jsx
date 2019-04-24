@@ -10,8 +10,8 @@ function Projects(){
     <div className="Projects">
       <Project4 />
       <Project3 />
-      <Project2 />
       <Project5 />
+      <Project2 />
       <Project1 />
     </div>
   )
