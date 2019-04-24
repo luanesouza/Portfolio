@@ -11,6 +11,10 @@ button{
   cursor: pointer;
 }
 
+a{
+  cursor: pointer;
+}
+
 .Welcome{
   height: 20em;
   padding: 5em;
@@ -31,25 +35,31 @@ button{
 #woman-pc{
   width: 45em;
   min-width: 10%;
-  opacity: .2;
+  opacity: .5;
   position: absolute;
 }
 
 /* MENU */
 .Menu{
   display: grid;
+  grid-template-columns: 20% 20% 20%;
+  min-width: 5em;
 }
 
 .menu{
-  background-color: black;
-  width: 25em;
-  font-size: 1em;
-  color: white;
+  border: none;
+  border-radius: .2em;
+  background-color: rgba(212,212,212, .5);
+  width: 20.1em;
+  font-size: 1.2em;
+  color: black;
+  font-weight: 600;
   padding: .5em;
-  margin-bottom: .5em;
-  grid-column-start: col-start 6;
-  animation-name: menu;
-  animation-duration: 2s;
+  margin-left: 14.5em;
+  margin-top: 1.5em;
+  min-width: 3em;
+  /* animation-name: menu; */
+  animation-duration: 4s;
   /* animation-iteration-count: infinite; */
 }
 
@@ -77,41 +87,123 @@ button{
 } */
 
 /* PROJECTS */
-.Project2{
+/* .Background{
+  margin-left: 5em;
+  margin-top: 5em;
+  width: 36em;
+  height: 28em;
+  min-width: 5em;
+  min-height: 4.3em; */
+  /* background-color: black; */
+  /* background-color: rgba(0, 0, 0, 1);
+  position: absolute;
+  color: white;
+  border-radius: 1em;
+} */
+
+.project-img{
+  /* border-radius: 1em; */
+  width: 20em;
+  height: 18em;
+  opacity: 1;
+  display: block;
+  grid-column: 1;
+  align-self: center;
+  min-width: 10em;
+  margin-left: 16.5em;
+  margin-top: 5em;
+}
+#project1:hover{
+  opacity: .5;
+  padding-top: .1em;
+}
+
+#techs{
+  font-weight: bold;
+  font-size: .7em;
+  margin-top: .8em;
+}
+
+/* #link-project{
+  font-size: 2em;
+  opacity: 0;
+  color: white;
+  display: relative;
+}
+
+#link-project:hover{
+  opacity: .5;
+} */
+
+.Projects{
+  display: grid;
+  grid-template-columns:20% 20% 20%;
+  grid-template-rows: 10%;
+  min-width: 5em;
+  grid-column-gap: 2.5em;
+  grid-row-gap: 25em;
+}
+/* .Project2{
   padding: .5em;
   margin-left: 5em;
   margin-top: 5em;
   border: .1em solid black;
   display: grid;
-  grid-template-columns: 10% 40%;
-  width: 70em;
+  grid-template-columns: 28% 18%;
+  width: 60em;
   height: 18em;
   min-width: 10em;
 }
 
 #project2{
   width: 25.5em;
-  height: 17em;
+  height: 23em;
   min-width: 5em;
-}
+  grid-column-start: 1;
+} */
+
 
 #project1{
-  width: 25em;
-  height: 17em;
-  min-width: 5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  /* margin-right: 3em; */
+  width: 20.5em;
+  height: 14em;
+  min-width: 2em;
 }
 
-#text-project2{
+/* #text-project2{
+  margin-top: 2.1em;
+  font-size: 1.2em;
   text-align: justify!important;
-  grid-column-start: col-start 3;
-}
+  grid-column-start: col-start 2;
+} */
 
 .allProjects{
   margin-top: 2em;
   padding-top: 2em;
 }
 
+#github{
+  width: 3em;
+  min-width: 1em;
+}
 
+@media only screen and (max-width: 414px) {
+  .Background{
+    margin-left: 5em;
+    margin-top: 5em;
+    width: 26em;
+    height: 18em;
+    min-width: 5em;
+    min-height: 4.3em;
+    background-color: red;
+    /* background-color: rgba(255, 255, 255, 255, 1); */
+    position: absolute;
+    color: white;
+    border-radius: 1em;
+  }
+}
 
 /* ARROW  */
 
@@ -120,7 +212,7 @@ button{
   text-align: center;
   transform: rotate(90deg);
   animation-name: arrow;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -145,7 +237,7 @@ button{
 .modal-above{
   padding: 2em;
   width: 28em;
-  background-color: rgba(255,249,250, .9);
+  background-color: rgba(233,233,233, 1);
   display: grid;
   grid-template-columns: 6em 5em 18em;
   margin-left: 19em;
@@ -171,4 +263,28 @@ button{
 #about-me{
   grid-column-start: 3;
   text-align: justify;
+}
+
+/* NAV BAR */
+
+/* .Nav{
+  margin-left: 28em;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 15em 15em 15em;
+} */
+
+/* Technologies */
+
+.Technologies{
+  text-align: center;
+  opacity: .6;
+}
+.tech-logos{
+  width: 4em;
+  padding: .5em;
+}
+
+#react{
+  width: 3em;
 }

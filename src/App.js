@@ -4,6 +4,7 @@ import Menu from './components/Menu';
 import Projects from './components/Projects'
 import Arrow from './components/Arrow';
 import AboutMe from './components/AboutMe';
+import Technologies from './components/Technologies';
 import './App.css';
 
 class App extends Component {
@@ -26,13 +27,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Welcome />
       <Menu toggleModal={this.toggleModal} />
+      <Welcome />
+      <Technologies />
       <Arrow />
       <div className="allProjects">
         <Projects />
       </div>
-      <h1>Modal Demo</h1>
         <AboutMe
           closeModal={this.toggleModal}
           isOpen={this.state.modalOpen} />

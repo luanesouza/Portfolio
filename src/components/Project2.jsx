@@ -2,14 +2,18 @@ import React from 'react';
 
 function Project2(){
   return(
-    <div className="Project2">
-      <img id="project2" src="https://i.imgur.com/FmXEvgO.jpg" />
-      <p id="text-project2">
-        Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
-        Nori grape silver beet broccoli kombu beet greens fava bean
-        potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil
-        turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify.
-      </p>
+    <div>
+       <div className="project-img">
+        <a href="http://recipes-app.surge.sh/">
+          <img id="project1" src="https://i.imgur.com/VFtw1zW.jpg" />
+        </a>
+        <p> Recipe App </p>
+        <br/>
+        <p> Making easier to plan and attend festivals. User has access to information about the festival and create tasks related to that festival. </p>
+        <br />
+        <a href= "https://github.com/luanesouza/RecipeApp">Link To The Repo</a>
+        <p id="techs"> REACT.JS / CSS / API / AXIOS</p>
+      </div>
     </div>
   )
 }

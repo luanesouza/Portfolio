@@ -15,8 +15,17 @@ export default (props) => {
       <div className="modal-above">
         <AboutMeImage />
         <p id="about-me">
-          Lea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra azuki bean corn fava bean mustard tigernut jícama green bean celtuce collard greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon radish asparagus spinach.
-          Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane.
+          Full Stack Web Developer pursuing new opportunities.
+          I have a passion for problem solving and lifelong learning.
+          My background is in Education where I learned the impact of working in groups and learned how to communicate according to the public target.
+           <br />
+           As a result, I bring strong skills in communication, problem solving which helps companies increase productivity and efficiency, team-building, project and time management.
+          <br />
+          <br />
+          <strong>Technical Skills:</strong>
+          <br />
+          VanillaJS, HTML, CSS, React.js, Express.js, Node.js, SQL, Sequelize, PostgreSQL,
+          Ruby, Rails, Active Record, ES6, Bcrypt, JWT, Bootstrap, Git, Third Party API.
         </p>
       </div>
     </div>
