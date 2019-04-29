@@ -10,10 +10,10 @@ function Project1(){
       <p><strong>Catching Game</strong></p>
       <br />
       <p>
-      Written in VanillaJS, the goal of the game is to catch all the mice that are
-      running around in your kitchen floor.
-      <br/>
-      It's a race against time, like almost everything in life.
+        Written in VanillaJS, the goal of the game is to catch all the mice that are
+        running around in your kitchen floor.
+        <br/>
+        It's a race against time, like almost everything in life.
       </p>
       <br />
       <a target="_blank" href="https://github.com/luanesouza/Catching-Game">Link To The Repo</a>

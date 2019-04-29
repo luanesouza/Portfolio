@@ -3,7 +3,7 @@ import React from 'react';
 function JobTitle(){
   return(
     <div>
-    <p>Full Stack Web Developer</p>
+    <p id="job-title">Full Stack Web Developer</p>
     </div>
   )
 }

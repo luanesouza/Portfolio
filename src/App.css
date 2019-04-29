@@ -284,6 +284,8 @@ a{
 #react{
   width: 2.5em;
 }
+
+
 /* CONTACT ME FORM */
 
 #contact-title{
@@ -351,4 +353,33 @@ a{
   height: 9.7vw;
   padding-left: 1em;
   padding-top: .5em;
+}
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) {
+  .Technologies{
+    padding-top: 18em;
+  }
+  body{
+    background-color: red
+    }
+
+    .tech-logos{
+      width: 5em;
+      padding: .5em;
+    }
+
+    #react{
+      width: 4em;
+    }
+
+    #annie{
+      font-size: 3rem;
+      padding-left: 8rem;
+    }
+
+    #job-title{
+      font-size: 1.5rem;
+      padding-left: 8rem;
+    }
 }
