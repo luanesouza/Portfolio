@@ -317,11 +317,10 @@ a{
 }
 
 #send{
-  width: 15vw;
-  height: 3vh;
+  width: 18vw;
+  height: 4vh;
   border: .1em solid gray;
   /* background-color: blue; */
-  padding: .4em;
   margin: 1em;
   align-self: center;
 }
@@ -352,13 +351,48 @@ a{
   width: 9.7vw;
   height: 9.7vw;
   padding-left: 1em;
-  padding-top: .5em;
 }
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 1024px) {
   .Technologies{
     padding-top: 18em;
+  }
+    .tech-logos{
+      width: 5em;
+      padding: .5em;
+    }
+
+    body{
+      background-color: blue;
+    }
+
+    #react{
+      width: 4em;
+    }
+
+    #annie{
+      font-size: 5rem;
+      padding-left: 8rem;
+      padding-top: 7.3rem;
+      width: 8em;
+    }
+
+    #job-title{
+      font-size: 1.8rem;
+      padding-left: 8rem;
+      width: 8em;
+    }
+
+    #project-paragraph{
+      font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+  .Technologies{
+    padding-top: 4em;
   }
   body{
     background-color: red
@@ -375,11 +409,31 @@ a{
 
     #annie{
       font-size: 3rem;
-      padding-left: 8rem;
+      padding-left: 1.2rem;
+      padding-top: 4.5rem;
+      width: 8em;
     }
 
     #job-title{
-      font-size: 1.5rem;
-      padding-left: 8rem;
+      font-size: 2rem;
+      padding-left: 1.2rem;
+      width: 8em;
     }
+
+    #project-paragraph{
+      font-size: 2.5rem;
+    }
+
+    .menu{
+      font-size: 1.5rem;
+    }
+
+    #link-repo{
+      font-size: 1.7rem;
+    }
+
+    #techs{
+      font-size: 1.7rem;
+    }
+
 }

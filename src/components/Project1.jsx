@@ -7,16 +7,16 @@ function Project1(){
       <a target="_blank" href="https://luanesouza.github.io/Catching-Game/">
        <img id="project1" src="https://i.imgur.com/k5R7Xc8.jpg" />
       </a>
-      <p><strong>Catching Game</strong></p>
+      <p id="project-paragraph"><strong>Catching Game</strong></p>
       <br />
-      <p>
+      <p id="project-paragraph">
         Written in VanillaJS, the goal of the game is to catch all the mice that are
         running around in your kitchen floor.
-        <br/>
+      <br/>
         It's a race against time, like almost everything in life.
       </p>
       <br />
-      <a target="_blank" href="https://github.com/luanesouza/Catching-Game">Link To The Repo</a>
+      <a id="link-repo" rel="noopener noreferrer" target="_blank" href="https://github.com/luanesouza/Catching-Game">Link To The Repo</a>
       <p id="techs"> VANILLA JAVASCRIPT / CSS / HTML</p>
      </div>
     </div>

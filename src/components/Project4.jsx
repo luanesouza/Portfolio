@@ -7,11 +7,11 @@ function Project4(){
        <a target="_blank" href="http://reconnect.surge.sh/">
         <img id="project1" src="https://i.imgur.com/ssDxSFy.jpg" />
        </a>
-        <p><strong> Reconnect </strong></p>
+        <p id="project-paragraph"><strong> Reconnect </strong></p>
         <br/>
-        <p> Seeking for mental health support should not be so difficult. Reconnect allows you to connect to therapists that will help you reconnect with yourself.. </p>
+        <p id="project-paragraph"> Seeking for mental health support should not be so difficult. Reconnect allows you to connect to therapists that will help you reconnect with yourself.. </p>
         <br />
-        <a target="_blank" href="https://github.com/luanesouza/Reconnect">Link To The Repo</a>
+        <a id="link-repo" target="_blank" href="https://github.com/luanesouza/Reconnect">Link To The Repo</a>
         <p id="techs"> REACT.JS / RAILS / SQL / POSTGRESQL / ACTIVE RECORD</p>
       </div>
     </div>
