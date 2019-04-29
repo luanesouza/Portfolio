@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer(){
   return(
     <div className="Footer">
-      <p>&copy; Copyright Annie Souza </p>
+      <p id="copyright">&copy; Copyright Annie Souza </p>
       <a href="https://www.linkedin.com/in/annie-souza-6a871b109/">
         <img id="contactme-icons" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png" alt="" />
       </a>

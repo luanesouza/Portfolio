@@ -48,7 +48,7 @@ class App extends Component {
       <div className="allProjects" ref={this.projects}>
         <Projects />
         <div id="contact-title" ref={this.contact}>
-          <h2>Contact The Developer</h2>
+          <h2 id="contact-developer">Contact The Developer</h2>
         </div>
         <ContactMe />
         <hr />
