@@ -15,7 +15,8 @@ function Technologies(){
       <img id="react" className="tech-logos" src="" alt=""/>
       <img id="react" className="tech-logos" src="" alt=""/>
       <img id="react" className="tech-logos" src="" alt=""/>
-      <p>__________________________________________________________</p>
+      <br />
+      <hr />
     </div>
   )
 }

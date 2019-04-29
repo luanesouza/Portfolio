@@ -4,7 +4,6 @@ function JobTitle(){
   return(
     <div>
     <p>Full Stack Web Developer</p>
-    <p>Freelance Photographer</p>
     </div>
   )
 }

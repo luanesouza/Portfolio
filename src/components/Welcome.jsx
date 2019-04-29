@@ -7,9 +7,6 @@ import WelcomeText from './WelcomeText';
 function Welcome(){
   return(
     <div className="Welcome">
-      <div className="text-welcome-page">
-        <WelcomeText />
-      </div>
       <WelcomeImage />
       <div className="name-job-title text-welcome-page">
         <Name />

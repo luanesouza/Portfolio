@@ -7,7 +7,7 @@ function Project5(){
        <a target="_blank" href="http://banditproject.surge.sh/">
         <img id="project1" src="https://i.imgur.com/fsCuSza.png" />
        </a>
-        <p> Band-It </p>
+        <p><strong> Band-It </strong></p>
         <br/>
         <p> Music can be hard but making a band should be easy. That's why we created a platform that makes it easier for bands to find musicians and for musicians to network with bands. </p>
         <br />

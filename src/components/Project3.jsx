@@ -7,7 +7,7 @@ function Project3(){
        <a target="_blank" href="https://futuristic-debt.surge.sh/">
         <img id="project1" src="https://i.imgur.com/kv99C25.jpg" />
        </a>
-      <p> FestPlanner </p>
+      <p><strong> FestPlanner </strong></p>
       <br/>
       <p> Making easier to plan and attend festivals. User has access to information about festivals and create tasks related to that festival. </p>
       <br />

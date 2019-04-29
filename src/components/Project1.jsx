@@ -7,7 +7,7 @@ function Project1(){
       <a target="_blank" href="https://luanesouza.github.io/Catching-Game/">
        <img id="project1" src="https://i.imgur.com/k5R7Xc8.jpg" />
       </a>
-      <p> Catching Game</p>
+      <p><strong>Catching Game</strong></p>
       <br />
       <p>
       Written in VanillaJS, the goal of the game is to catch all the mice that are

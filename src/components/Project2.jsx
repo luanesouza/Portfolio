@@ -7,7 +7,7 @@ function Project2(){
         <a target="_blank" href="http://recipes-app.surge.sh/">
           <img id="project1" src="https://i.imgur.com/VFtw1zW.jpg" />
         </a>
-        <p> Recipe App </p>
+        <p><strong> Recipe App </strong></p>
         <br/>
         <p> Making easier to plan and attend festivals. User has access to information about the festival and create tasks related to that festival. </p>
         <br />

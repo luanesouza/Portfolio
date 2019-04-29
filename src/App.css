@@ -16,47 +16,55 @@ a{
 }
 
 .Welcome{
-  height: 20em;
+  /* height: 20em; */
   padding: 5em;
-  display: grid;
-  grid-template-columns: 9% 50% 25%;
+  /* display: grid; */
+  /* grid-template-columns: 9% 50% 25%; */
   justify-content: center;
+}
+
+#annie{
+  font-size: 1.2em;
 }
 
 .text-welcome-page{
   position: relative;
+  width: 8rem;
+  right: 2.7rem;
   /* display: flex; */
   /* flex-direction: column; */
 }
 
 .name-job-title{
   /* align-self:baseline; */
-  padding-top: 15em;
-  bottom: 0;
+  padding-top: 5em;
 }
 
 #woman-pc{
-  width: 45em;
-  min-width: 10%;
+  width: 100vw;
+  left: 0;
+  /* min-width: 10%; */
   opacity: .5;
   position: absolute;
 }
 
 /* MENU */
 .Menu{
-  display: grid;
-  grid-template-columns: 20% 20% 20%;
-  min-width: 5em;
-  justify-content: center;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  /* min-width: 5em; */
   background-color: rgba(212,212,212, .5);
 }
 
 .menu{
+  justify-content: center;
   border: none;
   border-radius: .2em;
-  width: 15em;
+  width: 100vw;
   background: none;
-  font-size: 1.2em;
+  font-size: 1rem;
   color: black;
   font-weight: 600;
   padding: .5em;
@@ -107,15 +115,14 @@ a{
 
 .project-img{
   /* border-radius: 1em; */
-  width: 20em;
-  height: 18em;
+  /* width: 20em;
+  height: 18em; */
+  padding: 1rem;
   opacity: 1;
-  display: block;
-  grid-column: 1;
-  align-self: center;
+  /* display: block; */
   min-width: 10em;
-  margin-left: 16.5em;
-  margin-top: 5em;
+  /* margin-left: 16.5em;
+  margin-top: 5em; */
 }
 #project1:hover{
   opacity: .5;
@@ -140,12 +147,9 @@ a{
 } */
 
 .Projects{
-  display: grid;
-  grid-template-columns:20% 20% 20%;
-  grid-template-rows: 10%;
+  display: flex;
+  flex-wrap: wrap;
   min-width: 5em;
-  grid-column-gap: 2.5em;
-  grid-row-gap: 25em;
 }
 /* .Project2{
   padding: .5em;
@@ -168,11 +172,11 @@ a{
 
 
 #project1{
-  padding-top: .5em;
+  padding-top: 1em;
   padding-bottom: .5em;
   /* margin-right: 3em; */
-  width: 20.5em;
-  height: 14em;
+  width: 100%;
+  height: 45%;
   min-width: 2em;
 }
 
@@ -273,12 +277,12 @@ a{
   opacity: .6;
 }
 .tech-logos{
-  width: 4em;
+  width: 3em;
   padding: .5em;
 }
 
 #react{
-  width: 3em;
+  width: 2.5em;
 }
 /* CONTACT ME FORM */
 
@@ -303,8 +307,8 @@ a{
 }
 
 #input-form{
-  width: 20vw;
-  height: 6vh;
+  width: 30vw;
+  height: 3vh;
   padding: .4em;
   margin: 1em;
   border: .1em solid gray;
@@ -327,8 +331,8 @@ a{
 
 #textarea{
   padding: .5em;
-  width: 230%;
-  height: 71%;
+  width: 100%;
+  height: 60%;
   border: .1em solid gray;
 }
 
@@ -343,7 +347,8 @@ a{
 }
 
 #contactme-icons{
-  width: 3.5em;
+  width: 9.7vw;
+  height: 9.7vw;
   padding-left: 1em;
   padding-top: .5em;
 }

@@ -7,7 +7,7 @@ function Project4(){
        <a target="_blank" href="http://reconnect.surge.sh/">
         <img id="project1" src="https://i.imgur.com/ssDxSFy.jpg" />
        </a>
-        <p> Reconnect </p>
+        <p><strong> Reconnect </strong></p>
         <br/>
         <p> Seeking for mental health support should not be so difficult. Reconnect allows you to connect to therapists that will help you reconnect with yourself.. </p>
         <br />
