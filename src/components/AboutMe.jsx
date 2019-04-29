@@ -8,7 +8,7 @@ export default (props) => {
 
   return (
     <div class="modal">
-      <h2>About The Developer
+      <h2 id="about-developer">About The Developer
         <button id="close-modal" onClick={props.closeModal}>x</button>
       </h2>
 
