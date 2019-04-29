@@ -243,7 +243,6 @@ a{
   width: 4em;
   min-width: 4em;
   padding: .3em;
-  /* padding-right: 3em; */
 }
 
 #close-modal{
@@ -405,6 +404,7 @@ a{
   .Technologies{
     padding-top: 12em;
   }
+
   .tech-logos{
     width: 5em;
     padding: .5em;
@@ -479,6 +479,34 @@ a{
     height: auto;
     padding: 1vh;
   }
+
+  #me{
+    border-radius: 50%;
+    width: 10em;
+    padding: 1em;
+  }
+
+  #close-modal{
+    font-size: 1.2em;
+  }
+
+  #about-me{
+    grid-column-start: 3;
+    text-align: justify;
+    width: 80%;
+    padding: .3em;
+    font-size: 1em;
+  }
+
+  #about-developer{
+    padding-top: 4em;
+    font-size: 1.3em;
+  }
+
+  .modal-above{
+    grid-template-columns: 1em 12em 20em 1em;
+    padding: 1vw;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -539,6 +567,32 @@ a{
       width: 6vw;
       height: auto;
       padding: 1vh;
+    }
+
+    #me{
+      border-radius: 50%;
+      width: 10em;
+      padding: 1em;
+    }
+
+    #close-modal{
+      font-size: .8em;
+    }
+
+    #about-me{
+      width: 90%;
+      padding: .3em;
+      font-size: 1em;
+    }
+
+    #about-developer{
+      padding-top: 1em;
+      font-size: 1.9em;
+    }
+
+    .modal-above{
+      grid-template-columns: 1em 12em 24em 1em;
+      padding: 1vw;
     }
 }
 
@@ -652,4 +706,36 @@ a{
   .project-img{
     width: 40vw;
   }
+
+
+    #me{
+      width: 20em;
+      padding: 3em;
+    }
+
+    #close-modal{
+      font-size: 1em;
+    }
+
+    #about-me{
+      width: 55vw;
+      padding-left: 6em;
+      font-size: 3em;
+    }
+
+    #about-developer{
+      padding-top: 2.3em;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .modal-above{
+      grid-template-columns: 1em 12em 24em 1em;
+      padding: 1vw;
+      margin-left: 7vw;
+      margin-bottom: 7vw;
+      width: 85vw;
+      box-shadow: 5px 10px #888887;
+    }
+
 }
