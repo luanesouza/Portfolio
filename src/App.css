@@ -597,11 +597,6 @@ a{
 }
 
 @media (min-width: 1680px) {
-
-  body{
-    background-color: red;
-  }
-
   .Technologies{
     padding-top: 30vh;
   }
