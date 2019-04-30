@@ -709,23 +709,23 @@ a{
 
 
     #me{
-      width: 20em;
+      width: 14em;
       padding: 3em;
     }
 
     #close-modal{
-      font-size: 1em;
+      font-size: .4em;
     }
 
     #about-me{
-      width: 55vw;
+      width: 50vw;
       padding-left: 6em;
-      font-size: 3em;
+      font-size: 1.3em;
     }
 
     #about-developer{
-      padding-top: 2.3em;
-      font-size: 3em;
+      padding-top: 2.5em;
+      font-size: 1.7em;
       margin: 0;
     }
 
