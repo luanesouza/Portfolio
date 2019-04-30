@@ -596,10 +596,14 @@ a{
     }
 }
 
-@media (min-width: 2989px) {
+@media (min-width: 1680px) {
+
+  body{
+    background-color: red;
+  }
 
   .Technologies{
-    padding-top: 50vh;
+    padding-top: 30vh;
   }
 
   .tech-logos{
@@ -612,38 +616,38 @@ a{
   }
 
   #arrow-p{
-    font-size: 4em;
-    padding: 15rem;
+    font-size: 1.8em;
+    padding: 1em;
   }
 
   #annie{
-    font-size: 9rem;
+    font-size: 4rem;
     padding-left: 16rem;
     padding-top: 20rem;
     width: 8em;
   }
 
   #job-title{
-    font-size: 6rem;
+    font-size: 3rem;
     padding-left: 16rem;
     width: 8em;
   }
 
   #project-paragraph{
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: justify;
   }
 
   .menu{
-    font-size: 1.5rem;
+    font-size: 2em;
   }
 
   #link-repo{
-    font-size: 3rem;
+    font-size: 1.4rem;
   }
 
   #techs{
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     padding-bottom: 5em;
   }
 
@@ -655,7 +659,7 @@ a{
   #input-form{
     width: 30vw;
     height: 6vh;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   #send{
@@ -664,27 +668,23 @@ a{
     border: .1em solid gray;
     margin: 1em;
     align-self: center;
-    font-size: 3em;
+    font-size: 1.5em;
   }
 
   #textarea{
     padding: .5em;
+    margin-top: 1em;
     width: 30vw;
-    height: 20vh;
-    border: .1em solid gray;
-    font-size: 3em;
+    height: 30vh;
+    font-size: 1em;
   }
 
   #copyright{
-    font-size: 2.4em;
+    font-size: 1.4em;
   }
 
   .Footer{
-    height: 10vh;
-  }
-
-  .menu{
-    font-size: 4em;
+    height: 12vh;
   }
 
   #contactme-icons{
